@@ -16,7 +16,7 @@ import com.banhujiu.utils.thymeleaf.exception.ErrorDomainException;
 public class ImgDialect extends AbstractProcessorDialect {
 	public static final String NAME = "img";
 	public static final String PREFIX = "th";
-	public String domain = "http://localhost";
+	public String domain = "";
 
 	public ImgDialect() {
 		super(NAME, PREFIX, StandardDialect.PROCESSOR_PRECEDENCE);
